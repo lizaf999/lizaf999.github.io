@@ -868,7 +868,7 @@
         "text-halo-blur": 0,
         "text-halo-color": "hsla(0, 0%, 100%, 0.75)",
         "icon-translate-anchor": "map",
-        "text-halo-width": 1
+        "text-halo-width": 0
       }
     },
     {
