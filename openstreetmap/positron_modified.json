@@ -5,11 +5,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://tile2.openstreetmap.jp/data/japan.json"
+      "url": "https://tile.openstreetmap.jp/data/planet.json"
     }
   },
   "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
-  "glyphs": "https://tile2.openstreetmap.jp/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://tile.openstreetmap.jp/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
