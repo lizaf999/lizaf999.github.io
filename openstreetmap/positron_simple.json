@@ -688,55 +688,6 @@
       }
     },
     {
-      "id": "boundary_state",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "boundary",
-      "filter": ["==", "admin_level", 4],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round",
-        "visibility": "none"
-      },
-      "paint": {
-        "line-blur": 0.4,
-        "line-color": "rgb(230, 204, 207)",
-        "line-dasharray": [2, 2],
-        "line-opacity": 1,
-        "line-width": {"base": 1.3, "stops": [[3, 1], [22, 15]]}
-      }
-    },
-    {
-      "id": "boundary_country_z0-4",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "boundary",
-      "maxzoom": 5,
-      "filter": ["all", ["==", "admin_level", 2], ["!has", "claimed_by"]],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {
-        "line-blur": {"base": 1, "stops": [[0, 0.4], [22, 4]]},
-        "line-color": "rgb(230, 204, 207)",
-        "line-opacity": 1,
-        "line-width": {"base": 1.1, "stops": [[3, 1], [22, 20]]}
-      }
-    },
-    {
-      "id": "boundary_country_z5-",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "boundary",
-      "minzoom": 5,
-      "filter": ["==", "admin_level", 2],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {
-        "line-blur": {"base": 1, "stops": [[0, 0.4], [22, 4]]},
-        "line-color": "rgb(230, 204, 207)",
-        "line-opacity": 1,
-        "line-width": {"base": 1.1, "stops": [[3, 1], [22, 20]]}
-      }
-    },
-    {
       "id": "place_other",
       "type": "symbol",
       "source": "openmaptiles",
